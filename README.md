@@ -115,7 +115,7 @@ To implement an IO block in a reST file, use the ``.. code::`` directive, and us
     Here is the output
 ```
 would create a standard IO block. Similarly:
-```
+
 ```
 .. code::
     :class: input
