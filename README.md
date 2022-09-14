@@ -9,19 +9,19 @@ This repository contains various files and code snippets I use to improve the lo
 
 The repository contains the following contents:
 
-* [`matlab-color-codes.txt`](#matlab-color-codes.txt)
+* [`matlab-color-codes.txt`](#matlab-color-codestxt)
     A list of default color codes used by the Matlab editor to implement code highlighting.
-* `matlab.py`
+* [`matlab.py`](#matlabpy)
     A custom Pygments style that mimics the Matlab editor
-* `bold-comment-filter.py`
+* [`bold-comment-filter.py`](#bold-comment-filterpy)
     A custom Pygments filter that assigns the Generic.Strong token to %% comments
-* `highlighting.py`
+* [`highlighting.py`](#highlightingpy)
     A hacked file in the sphinx package that implements the bold-comments filter
-* `matlab-io.css`
+* [`matlab-io.css`](#matlab-iocss)
     CSS classes that implement input-output code blocks
-* `accordion.css`
+* [`accordion.css`](#accordioncss)
     A CSS class that implements collapsible accordion sections
-* `matlab-docs.css`
+* [`matlab-docs.css`](#matlab-docscss)
     CSS classes that mimic the layout and style of official Matlab function documentation pages
 
 More detailed descriptions, and instructions for implementing the hacks, are given below. I created these hacks using Pygments 2.13, Sphinx 5.1.1, and sphinx-rtd-theme 1.0.0, although I anticipate these hacks will work in later versions.
@@ -45,7 +45,7 @@ To use this hack:
 in the `STYLE_MAP` variable near the top of the file.
 
 
-### `bold-comments-filter.py`
+### `bold-comment-filter.py`
 
 This file creates a custom Pygments filter. The filter locates comments that begin with `%% ` and converts them from a Comment token to a Generic.Strong token. This allows `%%` comments to be bolded in the highlighted code. This file is a code snippet that needs to be added to an existing file in the Pygments package. Specifically:
 
