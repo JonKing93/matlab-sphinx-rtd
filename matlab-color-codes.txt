@@ -1,0 +1,12 @@
+Text:             #000000
+Comments:         #028009
+Keywords:         #0000FF
+Strings:          #AA04F9
+Error Messages:   #E60000
+Warnings:         #FF6400
+
+System Commands:       #B28C00
+Validations Sections:  #A0522D
+Unterminated Strings:  #C40000
+Syntax Errors:         #FF0000
+Console Hyperlinks:    #0000FF
