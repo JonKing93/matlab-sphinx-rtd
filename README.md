@@ -9,7 +9,7 @@ This repository contains various files and code snippets I use to improve the lo
 
 The repository contains the following contents:
 
-* `matlab-color-codes.txt`
+* [`matlab-color-codes.txt`](#matlab-color-codes.txt)
     A list of default color codes used by the Matlab editor to implement code highlighting.
 * `matlab.py`
     A custom Pygments style that mimics the Matlab editor
