@@ -86,7 +86,7 @@ from pygments.lexers import (MatlabLexer, CLexer, Python3Lexer, PythonConsoleLex
 
 To use any of the following CSS styles in sphinx
 
-1. Navigate to `source/static/css/` folder of your sphinx project
+1. Navigate to `source/_static/css/` folder of your sphinx project
 2. Add the file to the folder.
 3. Edit the sphinx configuration file `conf.py` to include the lines:
 ```
